@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&display=swap');
+/* font-family: 'Heebo', sans-serif; */
+
+* {
+    padding: 0;
+    margin: 0; 
+
+    font-family: 'Heebo', sans-serif;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+.header {
+    height: 80px;
+    position: sticky;
+    top: 0;
+    background-color: #ed40f1;
+    box-shadow: 0px 3px 5px 0px rgba(255,171,252,1);
+
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content > img {
+    padding-top: 1rem;
+    border-radius: .5rem;
+}
+
+.section-one {
+    height: auto;
+    padding-top: 4rem;
+
+    padding: 4rem 1rem 1rem 0;
+    color: #9c939c;
+}
+
+.img-one, .text-one{
+    padding: 3rem 2rem 2rem;
+}
+
+.text-one {
+
+}
+
+.text-one > h1 {
+ font-size: 32px;
+ font-weight: 700;
+
+ padding-bottom: .5rem;
+}
+
+.text-one > p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-carousel {
+    height: auto;
+    background-color: #fba5fb;
+}
+
+
+
+
+
+
+
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
