@@ -42,7 +42,7 @@ body {
     color: #9c939c;
 }
 
-.img-one, .text-one, .img-two{
+.img-one, .text-one, .img-two, .text-two{
     padding: 3rem 2rem 2rem;
 }
 
@@ -74,70 +74,12 @@ body {
     font-weight: 400;
 }
 
-.text-two {
-   padding: 6rem 2rem 2rem;
-}
 
 .section-carousel {
     height: 650px;
     /* background-color: #fba5fb; */
     background: rgb(237,64,241);
     background: linear-gradient(174deg, rgba(237,64,241,1) 0%, rgba(251,165,251,1) 71%);
-}
-
-.catch {
-  height: 250px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
-  /* border-top: 1px outset #FFACFC; */
-
-}
-
-.catch-button {
-
-    height: 100px;
-    width: auto;
-
-    padding: 1rem 4rem;
-
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-    font-weight: 800;
-    font-size: 32px;
-    color: #fff;
-
-    background: rgb(237,64,241);
-background: linear-gradient(174deg, rgba(237,64,241,1) 32%, rgba(251,165,251,1) 78%);
-    border: 0;
-    border-radius: 8rem;
-    margin: 0 auto;
-
-    box-shadow: 4px 4px 15px -4px rgba(0,0,0,0.75);
-
-    
-}
-
-.catch-button:hover {
-    cursor: pointer;
-
-    background-color: #FFACFC;
-    color: #ed40f1;
-}
-
-footer {
-    height: 150px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-    background: rgb(251,165,251);
-background: linear-gradient(174deg, rgba(251,165,251,1) 5%, rgba(237,64,241,1) 47%);
-    color: #FFACFC;
-}
-
-footer > p {
-    margin: 0 auto;
 }
 
 
@@ -156,6 +98,14 @@ footer > p {
     display: flex;
     flex-direction: column;
 }
+
+
+
+
+
+
+
+@import url("https://fonts.googleapis.com/css?family=DM+Sans:400,500,700&display=swap");
 
 
 
@@ -233,7 +183,9 @@ input[type=radio] {
   opacity: 1;
   z-index: 1;
   
-  
+  img {
+    box-shadow: 0px 0px 5px 0px rgba(81, 81, 81, 0.47);
+  }
 }
 
 .player {
